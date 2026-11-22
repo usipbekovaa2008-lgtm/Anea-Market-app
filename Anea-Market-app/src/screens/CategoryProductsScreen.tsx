@@ -8,8 +8,8 @@ import {
   SafeAreaView,
 } from 'react-native';
 
-import AneaLogo from '../components/AneaLogo';
-import PinkButton from '../components/PinkButton';
+import AneaLogo from '../context/CartContext';
+import PinkButton from '../context/PinkButton';
 import { COLORS, RADIUS } from '../theme';
 
 interface WelcomeScreenProps {
